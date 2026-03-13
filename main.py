@@ -29,7 +29,7 @@ with col1:
 
 with col2:
     st.subheader("2. Animations")
-    st.write("Watch an animated view of how price floor distributions shifted day by day. This helps visualize how the models adjusted over time for specific country groups.")
+    st.write("Watch an animated view of how price floor distributions shifted day by day. This helps visualize how the refinements we made helped reduce the frequency of low-bin price floors.")
     st.page_link("pages/2_Price_Floor_Animation.py", label="Go to Animations")
 
 with col3:
@@ -39,5 +39,5 @@ with col3:
 
 with col4:
     st.subheader("4. Site Deep Dive")
-    st.write("Look at all Z-Score metrics for a single specific property. Useful for isolating if a drop in revenue was caused by a drop in yield (RPS) or just a drop in traffic.")
+    st.write("Look at all Z-Score metrics for a single specific website. Useful for isolating if a drop in revenue was caused by a drop in RPS or just a drop in traffic, or potentially any effects from the price floor service.")
     st.page_link("pages/4_Site_Deep_Dive.py", label="Go to Deep Dive")
