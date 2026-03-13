@@ -33,7 +33,7 @@ with st.expander("Metric Definitions & Guide"):
         ###  Traffic & Quality Metrics (30-Day Windows)
         * **Z_SESSIONS_30D**: Identifies abnormal spikes or drops in overall traffic volume compared to the last month.
         * **Z_US_CHROME_MIX_30D**: Tracks shifts in a highly profitable user segment (US Desktop Chrome). A sudden negative Z-score could explain a drop in RPS.
-        * **Z_DIRECT_MIX_30D**: Tracks changes direct deals.
+        * **Z_DIRECT_MIX_30D**: Tracks changes in direct deals.
         """)
 try:
     # 1. Load Data
