@@ -26,15 +26,13 @@ with st.expander("Metric Definitions & Guide"):
 
         ###  Revenue Metrics
         * **Z_REV_LIFETIME**: Compares today's total revenue against the *entire* available history of the site. 
-        * **Z_REV_30D, 60D, 120D, 180D**: Compares today's revenue against the trailing 30, 60, 120, or 180 days. Using different windows helps distinguish between a short-term blip (30D) vs. a fundamental long-term shift (180D).
-
-        ###  Yield Metrics (RPS)
-        * **Z_RPS_30D, 60D, 120D, 180D**: Revenue Per Session. This isolates monetization efficiency from traffic volume. If Revenue is down but RPS is normal, the issue is a traffic drop. If RPS is deeply negative, there is a yield, pricing, or ad-stack issue.
+        * **Z_REV_30D, 60D, 120D, 180D**: Compares today's revenue against the trailing 30, 60, 120, or 180 days. Using different windows helps distinguish between a short-term trend (30D) vs. a long-term trend (180D).
+        * **Z_RPS_30D, 60D, 120D, 180D**: Revenue Per Session. If Revenue is down but RPS is normal, the issue is a traffic drop. If RPS is deeply negative, there could be an issue at hand.
 
         ###  Traffic & Quality Metrics (30-Day Windows)
         * **Z_SESSIONS_30D**: Identifies abnormal spikes or drops in overall traffic volume compared to the last month.
-        * **Z_US_CHROME_MIX_30D**: Tracks shifts in a highly monetizable user segment (US Desktop Chrome). A sudden negative Z-score here often explains a sudden drop in RPS.
-        * **Z_DIRECT_MIX_30D**: Tracks changes in the percentage of users navigating directly to the site. Large swings here can indicate a change in traffic makeup.
+        * **Z_US_CHROME_MIX_30D**: Tracks shifts in a highly profitable user segment (US Desktop Chrome). A sudden negative Z-score could explain a drop in RPS.
+        * **Z_DIRECT_MIX_30D**: Tracks changes direct deals.
         """)
 
 try:
